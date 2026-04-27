@@ -31,40 +31,40 @@ API tersedia di: `http://localhost:8000/api/docs`
 ## B. Dokumentasi API
 
 ### 1. POST `/api/auth/register` — Register User Baru
-![Register](01_register.png)
+![Register](https://raw.githubusercontent.com/hafizh1119/simple-lms-api/main/Dokumentasi/Register.png)
 
 ### 2. POST `/api/auth/login` — Login
-![Login](02_login.png)
+![Login](https://raw.githubusercontent.com/hafizh1119/simple-lms-api/main/Dokumentasi/Login.png)
 
 ### 3. POST `/api/auth/refresh` — Refresh Token
-![Refresh Token](03_refresh_token.png)
+![Refresh Token](https://raw.githubusercontent.com/hafizh1119/simple-lms-api/main/Dokumentasi/Refresh.png)
 
 ### 4. GET `/api/auth/me` — Lihat Profil
-![Get Me](04_get_me.png)
+![Get Me](https://raw.githubusercontent.com/hafizh1119/simple-lms-api/main/Dokumentasi/GET%20me.png)
 
 ### 5. PUT `/api/auth/me` — Update Profil
-![Update Me](05_update_me.png)
+![Update Me](https://raw.githubusercontent.com/hafizh1119/simple-lms-api/main/Dokumentasi/PUT%20me.png)
 
 ### 6. GET `/api/courses` — List Kursus
-![List Courses](06_list_courses.png)
+![List Courses](https://raw.githubusercontent.com/hafizh1119/simple-lms-api/main/Dokumentasi/GET%20Courses.png)
 
 ### 7. POST `/api/courses` — Buat Kursus (Instructor)
-![Create Course](07_create_course.png)
+![Create Course](https://raw.githubusercontent.com/hafizh1119/simple-lms-api/main/Dokumentasi/POST%20Courses.png)
 
 ### 8. GET `/api/courses/{id}` — Detail Kursus
-![Detail Course](08_detail_course.png)
+![Detail Course](https://raw.githubusercontent.com/hafizh1119/simple-lms-api/main/Dokumentasi/GET%20Detail%20Kursus.png)
 
 ### 9. PATCH `/api/courses/{id}` — Update Kursus (Owner)
-![Update Course](09_update_course.png)
+![Update Course](https://raw.githubusercontent.com/hafizh1119/simple-lms-api/main/Dokumentasi/PATCH%20Update.png)
 
 ### 10. DELETE `/api/courses/{id}` — Hapus Kursus (Admin)
-![Delete Course](10_delete_course.png)
+![Delete Course](https://raw.githubusercontent.com/hafizh1119/simple-lms-api/main/Dokumentasi/DELETE%20Kursus.png)
 
 ### 11. POST `/api/enrollments` — Enroll Kursus (Student)
-![Enroll](11_enroll.png)
+![Enroll](https://raw.githubusercontent.com/hafizh1119/simple-lms-api/main/Dokumentasi/POST%20Enroll.png)
 
 ### 12. GET `/api/enrollments/my-courses` — Kursus Saya
-![My Courses](12_my_courses.png)
+![My Courses](https://raw.githubusercontent.com/hafizh1119/simple-lms-api/main/Dokumentasi/GET%20Kursus%20Saya.png)
 
 ### 13. POST `/api/enrollments/{id}/progress` — Tandai Selesai
-![Progress](13_progress.png)
+![Progress](https://raw.githubusercontent.com/hafizh1119/simple-lms-api/main/Dokumentasi/POST%20Progress.png)
