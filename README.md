@@ -1,5 +1,9 @@
 # Simple LMS API
 
+Nama : Hafizh Naufal Nuha Kusuma
+ 
+NIM : A11.2023.14904
+
 ## A. Cara Menjalankan
 
 ```bash
