@@ -111,3 +111,25 @@ class Comment(models.Model):
         verbose_name_plural = "Komentar"
 
 
+class CourseContentCompletion(models.Model):
+    member_id = models.ForeignKey(
+        CourseMember,
+        verbose_name="anggota kelas",
+        on_delete=models.CASCADE
+    )
+
+    content_id = models.ForeignKey(
+        CourseContent,
+        verbose_name="konten",
+        on_delete=models.CASCADE
+    )
+
+    completed = models.BooleanField(default=True)
+
+    completed_at = models.DateTimeField(auto_now_add=True)
+
+    def __str__(self):
+        return f"{self.member_id} selesai {self.content_id}"
+
+    class Meta:
+        unique_together = ("member_id", "content_id")
